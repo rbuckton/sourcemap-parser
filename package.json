@@ -1,0 +1,35 @@
+{
+  "name": "sourcemap-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/lib/index.js",
+  "typings": "./out/lib/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.12.1",
+    "gulp-util": "^3.0.7",
+    "merge2": "^1.0.1",
+    "mocha": "^2.4.5",
+    "source-map-support": "^0.4.0",
+    "typescript": "^1.9.0-dev.20160409"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbuckton/sourcemap-parser.git"
+  },
+  "author": "Ron Buckton (rbuckton@outlook.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rbuckton/sourcemap-parser/issues"
+  },
+  "homepage": "https://github.com/rbuckton/sourcemap-parser#readme"
+}
